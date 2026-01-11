@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarizer - T5</title>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+
+<h2>T5 Text Summarizer (Flask App)</h2>
+
+<form method="POST">
+    <textarea name="input_text" rows="10" cols="80"
+              placeholder="Enter your text here..." required></textarea><br><br>
+
+    <button type="submit" style="padding:10px 15px;">Summarize</button>
+</form>
+
+{% if result %}
+    <h3>Summary:</h3>
+    <div style="border:1px solid #888;padding:10px;width:80%;">
+        {{ result }}
+    </div>
+{% endif %}
+
+</body>
+</html>
