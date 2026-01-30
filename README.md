@@ -128,10 +128,12 @@ http://127.0.0.1:5000
 
 ---
 
-## 📝 License
+👨‍💻 Author
 
-This project is **MIT Licensed** – see the LICENSE file for details.
+Dheeraj R. Singh
 
----
+📧 Email: newagecoder09@gmail.com
+
+🔗 GitHub: https://github.com/DHEERAJ09R08SINGH
 
 
